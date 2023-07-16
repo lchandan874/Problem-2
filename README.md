@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-void generateOddSeries(int x) {
+void generateOddSeries(int x) 
+{
     int i;
-    for (i = 1; i <= x; i++) {
+    for (i = 1; i <= x; i++)
+    {
         printf("%d", 2 * i - 1);
         if (i < x) {
             printf(", ");
